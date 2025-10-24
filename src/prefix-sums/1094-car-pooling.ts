@@ -1,6 +1,4 @@
 function carPooling(trips: number[][], capacity: number): boolean {
-  console.time("execution");
-
   const array: Array<number> = [];
   for (let i = 0; i <= trips.length - 1; i++) {
     const n = trips[i]!;
